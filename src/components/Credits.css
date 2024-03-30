@@ -1,0 +1,281 @@
+/* .credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #91caae;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  .credit-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+.credit-content-left h1 {
+  text-align: left;
+  color: black;
+}
+
+  .credit-content-right{
+    width: 400px;
+    padding-top: 0px;
+    border-radius: 4px;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 8px;
+    margin-top: 16px;
+    top: calc(35% - (32px + 16px));
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .credit-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+  }
+  
+  .credit-item {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .credit-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .credit-amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: green;
+  }
+  
+  .credit-description {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .credit-date {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .account-balance{
+    color: white;
+    border-radius: 4px;
+    font-size: 34px;
+    padding: 8px;
+    margin: 0;
+  }
+
+.account-balance{
+    color: black;
+    border-radius: 4px;
+    font-size: 34px;
+    padding: 8px;
+    margin: 0;
+  }
+.credit-form {
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-top: 0px;
+    border-radius: 4px;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: 16px;
+    top: calc(35% - (32px + 16px));
+    border-radius: 4px;
+  }
+
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin: 16px;
+  }
+  
+  .form-label {
+    text-align: left;
+    background-color: #25654f;
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #2e6150;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-button {
+    padding: 8px 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #186329;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  
+
+   */
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #91caae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .bank-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  .header {
+    background-color: #1c5438;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .account-balance {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    width: 120%; 
+    max-width: 400px; 
+    text-align: center; 
+  }
+  
+  .credit-content {
+    width: 100%;
+  }
+  
+  .credit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .credit-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .credit-amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #1b5946;
+  }
+  
+  .credit-description {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .credit-date {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .credit-item {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+  }
+  
+  .credit-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    width: 100%;
+    width: 600px; /* Adjust max-width as needed */
+  }
+  
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1b5946;
+    margin-bottom: 8px;
+  }
+
+  .form-input {
+    padding: 8px; /* Decrease padding */
+    font-size: 14px; /* Decrease font size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+  
+  
+  .form-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1b5946;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
