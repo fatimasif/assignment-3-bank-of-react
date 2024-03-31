@@ -7,6 +7,7 @@ Note: You need to work on this file for the Assignment.
 
 import React, { useState } from 'react';
 import AccountBalance from './AccountBalance';
+import { Link } from 'react-router-dom';
 import './Credits.css';
 
 const Credits = ({ credits, accountBalance, addCredit }) => {
@@ -46,6 +47,25 @@ const Credits = ({ credits, accountBalance, addCredit }) => {
   };
 
   return (
+    <div>
+    {/* NAV BAR */}
+    <nav>
+      <input type="checkbox" id="check" />
+      <label htmlFor="check" className="checkbtn">
+        <i className="fas fa-bars"></i>
+      </label>
+      <label className="logo">Bank of React</label>
+      <ul>
+        <li><Link to="/" className="active">Home</Link></li>
+        <li><Link to="/userProfile">User Profile</Link></li>
+        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/credits">Credits</Link></li>
+        <li><Link to="/debits">Debits</Link></li>
+      </ul>
+    </nav>
+    {/* END NAV BAR */}
+
+    <div className="content">
     <div className="credits">
       <div className="credit-content">
         {/* Left section: Credit History */}
@@ -98,6 +118,8 @@ const Credits = ({ credits, accountBalance, addCredit }) => {
         </div>
       </div>
     </div>
+  </div>
+  </div>
   );
 };
 
