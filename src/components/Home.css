@@ -8,7 +8,9 @@
   
   body {
     font-family: "Raleway", sans-serif;
-    background-color: #0d0d0d;
+    background-image: url("../assets/minimal-background-simple-green-design-vector_242622-257.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   body::before {
@@ -26,7 +28,7 @@
   }
   
   nav {
-    background: #355a3a;
+    background: #54734c;
     opacity: 1;
     height: 80px;
     width: 100%;
@@ -103,7 +105,7 @@
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #26402a;
+      background: #54734c;
       top: 80px;
       left: -100%;
       text-align: center;
@@ -124,7 +126,7 @@
     a.active {
       background: none;
       color: white;
-      background-color: #2d4d32;
+      background-color: #54734c;
       box-shadow: 0 0 5px #1e3321;
     }
   

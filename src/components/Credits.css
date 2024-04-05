@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #91caae;
@@ -61,7 +61,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 8px;
-  color: #1b5946;
+  color: green;
 }
 
 .credit-description {
@@ -77,12 +77,14 @@ body {
 
 .credit-item {
   background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-  padding: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  max-width: 600px; /* Adjust max-width as needed */
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  width: 600px; /* Adjust max-width as needed */
+  flex-direction: row;
+
 }
 
 .credit-form {
@@ -159,7 +161,7 @@ nav ul li {
 
 nav ul li a {
   color: white;
-  font-size: 17px;
+  font-size: 20px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -225,7 +227,7 @@ nav ul li a:hover {
 
 /* Add padding underneath the navbar */
 .content {
-  padding-top: 95px; 
-  padding-bottom: 80px;
+  padding-top: 120px; 
+  padding-bottom: 60px;
 }
 
