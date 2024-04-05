@@ -4,6 +4,9 @@ This repository is the starter code for Assignment 3 - Bank of React.
 ### Live Link 
 [Website link](https://fatimasif.github.io/assignment-3-bank-of-react/)
 
+### Group Members
+Zara and Fatima
+
 ----------
 ### 1. Use the following process to ***import*** the Assignment 3 starter code repository to your GitHub account as your starter codebase
 1.	Log on to GitHub
