@@ -30,15 +30,6 @@ class Home extends Component {
         {/* END NAV BAR */}
 
         <h1>Welcome to the Bank of React!</h1>
-
-        <Link to="/userProfile">User Profile</Link>
-        <br/>
-        <Link to="/login">Login</Link>
-        <br/>
-        <Link to="/credits">Credits</Link>
-        <br/>
-        <Link to="/debits">Debits</Link>
-        <br/><br/>
         <AccountBalance accountBalance={this.props.accountBalance}/>
       </div>
     );
